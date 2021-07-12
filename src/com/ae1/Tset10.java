@@ -14,7 +14,7 @@ public class Tset10 {
 		int result = 0;
 		
 		System.out.println("숫자를 입력하세요. : ");
-		num = sc.nextInt();
+		num = sc.nextInt();//int만 입력받기 때문에 문자x
 		
 		
 		result = num + 6*(num/4);
@@ -24,6 +24,8 @@ public class Tset10 {
 		
 		System.out.println(result);
 		
+		//Github 사용하기
+		//코드 추가
 		
 		
 		
